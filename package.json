@@ -1,0 +1,26 @@
+{
+  "name": "my-blog",
+  "version": "1.0.0",
+  "description": "blog web application",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon api/index.js",
+    "start": "node api/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MehmetKaldirim/my-blog.git"
+  },
+  "author": "Mehmet Kaldirim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MehmetKaldirim/my-blog/issues"
+  },
+  "homepage": "https://github.com/MehmetKaldirim/my-blog#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
+  }
+}
