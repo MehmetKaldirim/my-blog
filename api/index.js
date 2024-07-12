@@ -4,6 +4,7 @@ import dotenv from "dotenv";
 dotenv.config();
 import userRoutes from "./routes/user.route.js";
 import authRoutes from "./routes/auth.route.js";
+import cookieParser from "cookie-parser";
 
 mongoose
   .connect(process.env.MANGO_URI)
@@ -17,6 +18,7 @@ mongoose
 const app = express();
 
 app.use(express.json());
+app.use(cookieParser());
 
 app.listen(process.env.PORT, () => {
   console.log("Server is running on port " + process.env.PORT);
