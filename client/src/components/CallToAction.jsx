@@ -13,11 +13,12 @@ export default function CallToAction() {
           className="rounded-tl-xl rounded-bl-none"
         >
           <a
-            href="https://www.100jsprojects.com"
+            //href="https://www.100jsprojects.com"
+            href="https://mehmetkaldirim-1cdb28d0493d.herokuapp.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            100 JavaScript Projects
+            My Portfolio
           </a>
         </Button>
       </div>
